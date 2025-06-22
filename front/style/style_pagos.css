@@ -45,69 +45,25 @@ nav ul li a {
 
 .form-section, .card-custom { 
   background-color: #F19C99; /* Fondo rosa */
-  border-radius: 40px; /* Bordes redondeados */
-  border: 2px solid black;
+  border-radius: 100px; /* Bordes redondeados */
+  border: 1px solid black;
   padding: 20px; /* Espacio interno */
 
 }
-
-.shopping-cart-section {
-    background-color: transparent; /* Fondo transparente para que se vea el de body */
-    padding: 20px;
-}
-
-.cart-card {
-    min-height: 400px; /* Altura mínima para las tarjetas del carrito */
-    padding: 30px;
-    text-align: center;
-}
-
-.cart-card h3 {
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-
-.cart-add-package {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: black;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-decoration: none;
-    cursor: pointer;
-}
-.cart-add-package:hover {
-    color: #555;
-}
-
-.cart-add-package i {
-    font-size: 1.5em;
-}
-.btn-dark {
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+.form-section h2{
+  color: black;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .btn-dark:hover {
-  background-color: #333;
+  background-color: #312e2e;
   color: white;
 }
-
-.btn-link.text-dark {
-  color: black !important;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-.btn-link.text-dark i {
-  font-size: 1.2em;
+.btn-dark {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 80px;
 }
  

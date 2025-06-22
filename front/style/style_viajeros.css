@@ -11,10 +11,11 @@ body {
 
 header {
   background-color: #F19C99; /* Color rosa del encabezado */
-  display: flex;
-  justify-content: space-between;
+  display: flex; 
+  justify-content: space-between; /* Espacio entre logo y navegación */
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 10px;
+  width: 100%;
 }
 
 .logo img {
@@ -43,7 +44,7 @@ nav ul li a {
   border-radius: 30px;
 }
 
-/* Estilos para las tarjetas de paquetes (específicas de paquetes.html y viajeros.html) */
+/* Estilos para las tarjetas de paquetes */
 .package-card {
   background-color: #F19C99;
   border: 2px solid black;
@@ -51,7 +52,6 @@ nav ul li a {
   overflow: hidden;
   text-align: center;
 }
-
 
 .package-card img {
   width: 100%;
